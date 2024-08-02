@@ -1,0 +1,10 @@
+{
+  "name": "pants-on-fire-backend",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "the websocket server backend for pants-on-fire",
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "ws": "^8.18.0"
+  }
+}
