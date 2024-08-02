@@ -1,0 +1,17 @@
+.TitleBar {
+	font-size: large;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: lightblue;
+}
+
+.url {
+	display: flex;
+	color: black;
+}
+
+.name {
+	color: blue;
+	font-weight: bold;
+}

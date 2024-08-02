@@ -1,0 +1,15 @@
+.PlayerList {
+	
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+}
+
+.player {
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: beige;
+}
