@@ -1,14 +1,21 @@
-.PlayerList {
-	
+.player_label {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
 }
 
 .list {
+	width: 50%;
+	margin: 0 auto;
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+	/* margin: 10px; */
+	/* justify-content: center; */
 }
 
 .player {
-	padding: 10px 20px;
+	padding: 10px 25px;
 	margin: 10px;
 	border-radius: 10px;
 	background-color: beige;
