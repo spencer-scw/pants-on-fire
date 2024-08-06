@@ -1,3 +1,10 @@
+import Link from "next/link"
+
 export default function page() {
-  return <h2>Home</h2>
+  return (
+  <div>
+    <h2>Home</h2>
+    <Link href="/welcome">Welcome</Link>
+  </div>
+  )
 }
