@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
 
     socket.on("connect", onConnect);
     socket.on("disconnect", onDisconnect);
+    socket.on("pages", console.log)
     
     return () => {
       socket.off("connect", onConnect);

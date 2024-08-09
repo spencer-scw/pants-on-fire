@@ -3,7 +3,7 @@ import './PlayerList.css';
 function PlayerList() {
 	// TODO: get list of players from backend
 	var playerNames = ['Jeff', 'Geoff', 'Djeff', 'Gef', 'Chef']
-	const playerHTML = playerNames.map((name) => <div className='player'>{name}</div>)
+	const playerHTML = playerNames.map((name) => <div className='player' key={name}>{name}</div>)
 
   return (
 	<div className="PlayerList">

@@ -1,0 +1,1 @@
+https://en.wikipedia.org/w/api.php?action=query&format=json&prop=info|extracts&iwurl=1&continue=grncontinue||&generator=random&formatversion=2&inprop=url&exchars=200&exintro=1&explaintext=1&grnnamespace=0&grnlimit=5
